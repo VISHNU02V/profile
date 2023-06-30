@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(75deg,rgb(80, 3, 80),rgb(5, 5, 131));
-    
+    background-size: auto;
+    background-position: 0% 0px;
 }
 .t{
     text-align: center;
