@@ -1,0 +1,144 @@
+body{
+    background: linear-gradient(75deg,rgb(80, 3, 80),rgb(5, 5, 131));
+    background-repeat:rgb(63, 0, 63);
+}
+.t{
+    text-align: center;
+    color: linear-gradient(60deg,rgba(6, 194, 194, 0.733),rgb(7,200,200));
+    font-size: 100px;
+    margin-top: 5rem;
+    color:linear-gradient(60deg,rgba(4, 56, 154, 0.263),rgb(7,200,200));
+    text-transform: capitalize;
+    text-overflow:clip;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.hello{
+    background: linear-gradient(60deg,rgb(6, 89, 120),rgb(19, 118, 78));
+    width:100%;
+    padding:40px 70px;
+    border-radius: 4rem;
+}
+/* main container*/
+.container{
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20%;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+/* container on left side of the window */
+.container .hello .container0{
+    display:grid;
+    align-items: center;
+    grid-template-columns: fit-content(50%) fit-content(50%) 1fr 1fr;
+    column-gap: 9%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 2rem;
+    background-color: rgba(238, 155, 54, 0.871);
+    overflow:hidden;
+}
+.hello .container0 .pic1{
+    width: 150px;     /*width of the picture*/
+    height: 150px;    /*height of the picture*/
+    border-radius: 13%;
+    box-shadow: 8px 8px 3px 3px #000;
+    margin-left: 15%;
+}
+.container .hello .container0 .content{
+    margin-left: 5%;
+    margin-right: 5% ;  
+}
+.container .hello .container0 .content .tt{
+    margin-left: 1%;
+    margin-right: 1% ;
+    text-align: fit-content;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.3;
+    width: 1%;     
+    height: 1%;
+    border-radius: 2rem;
+}
+.container .hello .container0 .content .tt .text{
+    font-size: 0.75rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: fit-content;
+    background-color: rgb(255, 244, 120);
+    opacity: 0.3;
+}
+
+.b{
+    background: rgba(229, 224, 217, 0.871);
+    opacity: 0.8;
+    border:none;
+    cursor: pointer;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 2px 2px #000;
+    font-size: small;
+}
+/* container on right side of the window */
+.container .hello1 {
+    background: linear-gradient(90deg,#b9116e,#680354  );
+    width:100%;
+    padding:44px 50px;
+    border-radius: 4rem;  
+}
+.container .hello1 .container1{
+    background-color: #d89a35  ;
+    display:grid;
+    column-gap: 7%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border-radius: 2rem;
+    align-items: center;
+    grid-template-columns: fit-content(50%) fit-content(50%) 1fr;
+}
+.hello1 .container1 .pic2{
+    width: 200px;     /*width of the picture*/
+    height: 200px;    /*height of the picture*/
+    border-radius: 25%;
+    margin-left: 8%;
+}
+
+.hello1 .pic2{
+    width: 30%;
+    height: 30%;
+    border-radius: 30%;
+    box-shadow: 1px 1px 1px #0000;
+}
+.container1{
+    border-radius: 3rem;
+    background-color: brown;
+    display:grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+}
+.container1 .content{
+    margin-left: 5%;
+    margin-right: 5% ;  
+}
+.container1 .content .tt{
+    margin-left: 15%;
+    margin-right: 15% ;
+    background-color: rgb(250, 250, 252);
+    opacity: 0.4;
+    border-radius: 2rem;
+}
+.container1 .content .tt .text{
+    font-size: 1.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
