@@ -1,7 +1,11 @@
 body{
     background: linear-gradient(75deg,rgb(80, 3, 80),rgb(5, 5, 131));
-    background-size: auto;
-    background-position: 0% 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0%;
 }
 .t{
     text-align: center;
